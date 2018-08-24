@@ -26,7 +26,7 @@ def matrix_D(matrix, mul):
             total += mul * matrix_D(m, sign * float(matrix[0][i]))
         return total
 
-file = open("C:\\Users\\RAJ__DAS\\Desktop\\NEW.txt") # C:\Users\RAJ__DAS\Desktop\
+file = open("C:\\Users\\RAJ__DAS\\Desktop\\NEW1.txt") # C:\Users\RAJ__DAS\Desktop\
 line = file.readline()#line read 
 li=[]
 items = line.split()
